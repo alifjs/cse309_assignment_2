@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-width:100vw;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    font-family: Arial;
+    flex-direction: column;
+}
+a{
+    margin-bottom: 50px;
+}
+.login_container{
+    background:grey;
+    padding:100px 50px 100px 50px;
+    border-radius: 15px;
+}
+button{
+    font-size:25px;
+    display:block;
+}
+button:hover{
+    cursor:pointer;
+}
+.button_container{
+    display:flex;
+    justify-content: center;
+}
+input{
+    font-size:25px;
+    margin-bottom: 30px;
+}

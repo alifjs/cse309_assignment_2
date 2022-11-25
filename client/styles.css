@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-width:100vw;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    font-family: Arial;
+    flex-direction: column;
+}
+a{
+    margin-bottom: 50px;
+}
+/* .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* #contact_us_title{
+    text-align: cn;
+} */
+h1{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+button{
+    font-size:25px;
+    display:block;
+}
+input{
+    font-size:30px;
+    margin-bottom:15px;
+}
+textarea{
+    font-size: 30px;
+    margin-bottom:15px;
+}
+button:hover{
+    cursor: pointer;
+}
+.contact_us_form{
+    background:grey;
+    padding:100px;
+    border-radius: 15px;
+}
